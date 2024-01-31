@@ -21,7 +21,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
 
 body {font-family: 'Mais Grotesk';
-      background: url(http://unfinished.es/wp-content/themes/unfinished/img/logox.jpg) no-repeat; background-position: 40px 370px; background-size: 800px auto;}
+      background: url(https://unfinished.es/wp-content/themes/unfinished/img/logox.jpg) no-repeat; background-position: 40px 370px; background-size: 800px auto;}
 img {max-width: 100%; height: auto !important; margin-bottom: 0.6rem;}
 a {color:#373a3c;}
 a:hover, a.active {color:#000; text-decoration: underline;}
