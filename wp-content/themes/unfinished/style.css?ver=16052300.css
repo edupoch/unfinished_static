@@ -1,0 +1,69 @@
+/*
+Theme Name: unfinished
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: unfinished
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+unfinished is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+body {font-family: 'Mais Grotesk';
+      background: url(http://unfinished.es/wp-content/themes/unfinished/img/logox.jpg) no-repeat; background-position: 40px 370px; background-size: 800px auto;}
+img {max-width: 100%; height: auto !important; margin-bottom: 0.6rem;}
+a {color:#373a3c;}
+a:hover, a.active {color:#000; text-decoration: underline;}
+span.fecha, span.fila,
+p {font-size: 1.2rem;}
+b.lineal {font-size: 1.2rem;} 
+.z-index {z-index: 4;}
+section {padding:4rem 0 3rem;}
+.pdf {border-top: 2px solid #000; border-bottom: 2px solid #000;}
+.titulo-obra {margin-top: -7rem;}
+.separador {height:150px;}
+
+.vertical {position: fixed; top:55%; text-align: center; font-size: 1.2rem; font-weight: bold; z-index: 2;}
+.vertical.izq {left:70px; transform-origin: center left;}
+.vertical.drch {right:70px; transform-origin: center right; top:52%;}
+
+.fixed {position: fixed; top:0; width: 100vw; background-color: #fff; z-index: 5;}
+span.un {display:block; font-size: 35px; line-height: 1.4em; text-transform: uppercase; font-weight: bold; padding: 0.5rem 20px 0 8px;}
+ul.superior li {font-size: 1.2rem; font-weight: bold;}
+ul.superior li a {padding:0 0.5rem;}
+
+ul.idiomas {padding-right: 60px; position: absolute; top:0px; right:0;}
+ul.idiomas li {padding:0 0.1rem; padding-top: 0.6rem;}
+ul.idiomas li a {font-size: 1.1rem;}
+
+.categorias {margin-top: 7rem;}
+ul.inferior li {padding:0 0.1rem;}
+ul.inferior li a {font-size: 1.1rem;}
+.rotate {transform: rotate(-90deg); transform:;}
+.rrotate {transform: rotate(90deg);} 
+.bg-blanco {background-color: #fff;}
+.overflow {overflow: hidden;}
+
+h1, .h1 {font-size:1.2rem; color:#000; font-weight:bold; display: block;}
+
+.fila {width: 100%; display: block;}
+
+/* querys */
+@media (max-width: 710px) { 
+	.categorias {margin-top: 8rem;}
+	ul.idiomas {padding-right: 10px;
+}
+@media (max-width: 1400px) { 
+	.vertical {display: none;}
+}
